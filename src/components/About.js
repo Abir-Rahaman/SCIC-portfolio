@@ -2,7 +2,7 @@ import React from 'react';
 import about from '../assets/about.png'
 const About = () => {
     return (
-        <div class="hero lg:px-0  px-20">
+        <div name="about" class="hero lg:px-0  px-20">
                 <div class="hero-content px-0 flex-col lg:flex-row-reverse">
                     <div className=' shadow-2xl py-8 px-24  border-4 border-accent rounded-3xl'>
                    <div className="pr-0 lg:pr-96  mb-10">

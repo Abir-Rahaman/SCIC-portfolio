@@ -8,7 +8,7 @@ import {FaArrowRight } from 'react-icons/fa'
 
 const Banner = () => {
     return (
-           <div class="hero mt-16 lg:px-0  px-20">
+           <div name='banner' class="hero mt-16 lg:px-0  px-20">
                 <div class="hero-content px-0 flex-col lg:flex-row-reverse">
                     
                     <img src={Profile} class="max-w-sm rounded-lg" alt='' />
