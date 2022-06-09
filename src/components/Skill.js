@@ -16,64 +16,64 @@ const Skill = () => {
                 <p className='text-4xl inline border-b-4 border-accent'>My Skills</p>
                 <p className='text-2xl mt-8'> These Are Technologies I'he worked with</p>
             </div>
-              <div className="grid lg:grid-cols-3 grid-cols-2">
-              <div class="card w-96 bg-base-100  mt-9">
+              <div className="grid lg:grid-cols-4 grid-cols-2">
+              <div class="card w-full bg-base-100  mt-9">
             <div class="card-body hover:scale-150 duration-500 ">
                 <img className='w-24 mx-auto mt-8' src={html} alt="" />
                 <p className='my-4 text-accent text-center font-bold'>HTML5</p>
                 
             </div>
             </div>
-            <div class="card w-96 bg-base-100  mt-9">
+            <div class="card  w-full bg-base-100  mt-9">
             <div class="card-body hover:scale-150 duration-500 ">
                 <img className='w-24 mx-auto mt-8' src={css} alt="" />
                 <p className='my-4 text-accent text-center font-bold'> CSS3</p>
                 
             </div>
             </div>
-            <div class="card w-96 bg-base-100  mt-9">
+            <div class="card  w-full bg-base-100  mt-9">
             <div class="card-body hover:scale-150 duration-500 ">
                 <img className='w-24 mx-auto mt-8' src={bs} alt="" />
                 <p className='my-4 text-accent text-center font-bold'> BOOTSTRAP5 </p>
                 
             </div>
             </div>
-            <div class="card w-96 bg-base-100  mt-9">
+            <div class="card  w-full bg-base-100  mt-9">
             <div class="card-body hover:scale-150 duration-500 ">
                 <img className='w-24 mx-auto mt-8' src={js} alt="" />
                 <p className='my-4 text-accent text-center font-bold'> JAVASCRIPT </p>
                 
             </div>
             </div>
-            <div class="card w-96 bg-base-100  mt-9">
+            <div class="card  w-full bg-base-100  mt-9">
             <div class="card-body hover:scale-150 duration-500 ">
                 <img className='w-24 mx-auto mt-8' src={tailwind} alt="" />
                 <p className='my-4 text-accent text-center font-bold'> TAILWIND </p>
                 
             </div>
             </div>
-            <div class="card w-96 bg-base-100  mt-9">
+            <div class="card  w-full bg-base-100  mt-9">
             <div class="card-body hover:scale-150 duration-500 ">
                 <img className='w-24 mx-auto mt-8' src={react} alt="" />
                 <p className='my-4 text-accent text-center font-bold'> REACT </p>
                 
             </div>
             </div>
-            <div class="card w-96 bg-base-100  mt-9">
+            <div class="card  w-full bg-base-100  mt-9">
             <div class="card-body hover:scale-150 duration-500 ">
                 <img className='w-24 mx-auto mt-8' src={firebase} alt="" />
                 <p className='my-4 text-accent text-center font-bold'> FIREBASE </p>
                 
             </div>
             </div>
-            <div class="card w-96 bg-base-100  mt-9">
+            <div class="card w-full bg-base-100  mt-9">
             <div class="card-body hover:scale-150 duration-500 ">
                 <img className='w-24 mx-auto mt-8' src={node} alt="" />
                 <p className='my-4 text-accent text-center font-bold'> NODE JS </p>
                 
             </div>
             </div>
-            <div class="card w-96 bg-base-100  mt-9">
+            <div class="card  w-full bg-base-100  mt-9">
             <div class="card-body hover:scale-150 duration-500 ">
                 <img className='w-24 mx-auto mt-8' src={mongo} alt="" />
                 <p className='my-4 text-accent text-center font-bold'> MONGO DB </p>
