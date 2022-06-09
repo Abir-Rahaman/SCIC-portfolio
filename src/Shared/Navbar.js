@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="">
             <img src={logo}  alt="portfolio-logo" style={{width:'250px'}}/>
         </div>
-            <ul className='md:flex hidden gap-9'>
+            <ul className='md:flex hidden gap-9 text-black font-bold'>
             <li><a> <Link to="banner" smooth={true} duration={500} >Home</Link></a></li>
             <li><a> <Link to="about" smooth={true} duration={500} >About</Link></a></li>
             <li><a> <Link to="skill" smooth={true} duration={500} >Skills</Link></a></li>

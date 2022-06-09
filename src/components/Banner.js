@@ -19,36 +19,37 @@ const Banner = () => {
                     <h1 className='text-2xl font-bold text-accent my-4'> & I'm a MERN stack developer. I'm a dedicated web developer who focuses in React. </h1>
                    </div>
                    <div className="lg:ml-28">
-                        <button className='text-accent hover:bg-accent duration-700  font-bold hover:text-white border-2 border-accent px-4  py-3 flex items-center mt-6'> Download Resume <span className='hover:rotate-90  duration-500'> <FaArrowRight className='ml-3'></FaArrowRight></span> </button>
+                       <a href="https://drive.google.com/file/d/1AQg9oyC5oJ384BfANI0sWoOiDt7A5E5s/view?usp=sharing" target="_blank" rel="noopener noreferrer"> <button className='text-accent hover:bg-accent duration-700  font-bold hover:text-white border-2 border-accent px-4  py-3 flex items-center mt-6'> Download Resume <span className='hover:rotate-90  duration-500'> <FaArrowRight className='ml-3'></FaArrowRight></span> </button></a>
+
                     </div>
                     </div>
                 </div>
-                <div className="hidden md:flex fixed flex-col top-[40%] left-0">
+                <div className=" md:flex fixed flex-col top-[40%] left-0">
                 <ul className='px-8'>
                     <li className='w-[150px] h-[60px] flex justify-center ml-[-110px]  hover:ml-[20px] duration-300 bg-black hover:rounded-full'>
                         <a className='flex justify-between items-center  text-gray-300 ' 
-                        href="">
+                        href="https://github.com/Abir-Rahaman"  target="_blank" rel="noopener noreferrer">
                            Github <FaGithub className='ml-8'  size={35}></FaGithub>
                         </a>
                     </li>    
                  
                     <li className='w-[150px] h-[60px] flex justify-center ml-[-110px]   hover:ml-[20px] duration-300 hover:rounded-full bg-[#3366a0]'>
                         <a className='flex justify-between items-center  text-gray-300 hover:rounded-full' 
-                        href="">
+                        href="https://www.linkedin.com/in/md-abir-rahaman-2351a6213/" target="_blank" rel="noopener noreferrer">
                            Linkedin <SiLinkedin className='ml-6'  size={35}></SiLinkedin>
                         </a>
                     </li>    
                  
                     <li className='w-[150px] h-[60px] flex justify-center ml-[-110px] hover:ml-[20px] duration-300 bg-green-500 hover:rounded-full'>
                         <a className='flex justify-between items-center  text-gray-300 ' 
-                        href="">
+                        href="https://mail.google.com/mail/u/0/?tab=mm#inbox" target="_blank" rel="noopener noreferrer">
                            Email <MdEmail className='ml-11'  size={35}></MdEmail>
                         </a>
                     </li>    
                  
                     <li className='w-[150px] h-[60px] flex justify-center ml-[-110px]  hover:ml-[20px] duration-300 bg-red-400 hover:rounded-full'>
                         <a className='flex justify-between items-center  text-gray-300 ' 
-                        href="">
+                        href="https://drive.google.com/file/d/1AQg9oyC5oJ384BfANI0sWoOiDt7A5E5s/view" target="_blank" rel="noopener noreferrer">
                            Resume <BsFillPersonLinesFill className='ml-7'  size={35}></BsFillPersonLinesFill>
                         </a>
                     </li>    
