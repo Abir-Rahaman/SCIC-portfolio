@@ -146,7 +146,7 @@ const MyProject = () => {
                 <img className='border-4 border-accent rounded-3xl  mb-6' src={pic7} alt="" />
                 <p className='text-center'><small className='text-accent font-bold '>Main Page</small></p>
                 <img className='border-4 border-accent rounded-3xl mb-6' src={pic8} alt="" />
-                <p className='text-center'><small className='text-accent font-bold '>Add Products Page</small></p>
+                <p className='text-center'><small className='text-accent font-bold '>Login system </small></p>
                 <img className='border-4 border-accent rounded-3xl mb-6 ' src={pic9} alt="" />
               </div>       
                   
